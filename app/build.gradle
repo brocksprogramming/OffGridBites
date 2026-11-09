@@ -1,8 +1,7 @@
 plugins {
-    id 'com.android.application' version '8.2.2' apply false
-    id 'org.jetbrains.kotlin.android' version '1.9.22' apply false
+    id 'com.android.application' version '8.2.2'
+    id 'org.jetbrains.kotlin.android' version '1.9.22'
 }
-
 
 android {
     namespace 'com.offgrid.btfood'
@@ -26,5 +25,5 @@ android {
 }
 
 dependencies {
-    // Zero external dependencies! Uses pure built-in Android SDK classes for an ultra-small APK (<100KB)
 }
+
